@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068d7e12-b07e-4804-9284-810c197764f4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/DependMethod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/parameter/ParameterTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TestNGChapter/src/main/resources/parameter.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
@@ -36,47 +37,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IgnoreTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/IgnoreTest.java">
+      <file leaf-file-name="ParameterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/parameter/ParameterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
               <folding>
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupsOnMethod.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/groups/GroupsOnMethod.java">
+      <file leaf-file-name="parameter.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/resources/parameter.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#740#741#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#1027#1028#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DependMethod.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DependMethod.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/DependMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="304">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#127#128#0" expanded="true" />
                 <element signature="e#174#175#0" expanded="true" />
@@ -200,6 +180,9 @@
         <option value="$PROJECT_DIR$/TestNGChapter/src/main/resources/expectedExpection.xml" />
         <option value="$PROJECT_DIR$/TestNGChapter/src/main/resources/expectedException.xml" />
         <option value="$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/DependMethod.java" />
+        <option value="$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/parameter/ParameterTest.java" />
+        <option value="$PROJECT_DIR$/TestNGChapter/src/main/resources/parater.xml" />
+        <option value="$PROJECT_DIR$/TestNGChapter/src/main/resources/parameter.xml" />
       </list>
     </option>
   </component>
@@ -339,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.DependMethod.test2">
+  <component name="RunManager" selected="TestNG./Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/parameter.xml">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -452,38 +435,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="GroupsOnMethod (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.course.testng.groups.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="TestNGChapter" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.course.testng.groups" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.groups.GroupsOnMethod" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/expectedException.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="TestNGChapter" />
@@ -517,6 +468,33 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNGChapter/src/main/resources/groupsOnClass.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/parameter.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="TestNGChapter" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNGChapter/src/main/resources/parameter.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -572,19 +550,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.GroupsOnMethod (1)" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG./Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/groupsOnClass.xml" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.ExpectedException" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG./Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/expectedException.xml" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.DependMethod.test2" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG./Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/groupsOnClass.xml" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.ExpectedException" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG./Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/expectedException.xml" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.DependMethod.test2" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG./Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/parameter.xml" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.DependMethod.test2" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG./Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/expectedException.xml" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ExpectedException" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG./Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/groupsOnClass.xml" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.GroupsOnMethod (1)" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG./Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/parameter.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.DependMethod.test2" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG./Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/expectedException.xml" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ExpectedException" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG./Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/groupsOnClass.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -611,20 +589,11 @@
     <history-entry file="ExpectedException - 2019.08.13 at 22h 12m 03s.xml">
       <configuration name="ExpectedException" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="GroupsOnMethod - 2019.08.12 at 22h 07m 48s.xml">
-      <configuration name="GroupsOnMethod" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupsOnMethod_(1) - 2019.08.12 at 22h 08m 44s.xml">
-      <configuration name="GroupsOnMethod (1)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_TestNGChapter_src_main_resources_expectedException_xml - 2019.08.13 at 22h 12m 22s.xml">
       <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/expectedException.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_TestNGChapter_src_main_resources_expectedException_xml - 2019.08.13 at 22h 12m 42s.xml">
       <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/expectedException.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_TestNGChapter_src_main_resources_groupsOnClass_xml - 2019.08.13 at 16h 46m 10s.xml">
-      <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/groupsOnClass.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_TestNGChapter_src_main_resources_groupsOnClass_xml - 2019.08.13 at 16h 47m 18s.xml">
       <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/groupsOnClass.xml" configurationId="TestNG" />
@@ -634,6 +603,15 @@
     </history-entry>
     <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_TestNGChapter_src_main_resources_groupsOnClass_xml - 2019.08.13 at 16h 52m 40s.xml">
       <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/groupsOnClass.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_TestNGChapter_src_main_resources_parameter_xml - 2019.08.14 at 11h 02m 33s.xml">
+      <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/parameter.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_TestNGChapter_src_main_resources_parameter_xml - 2019.08.14 at 11h 02m 50s.xml">
+      <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/parameter.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_TestNGChapter_src_main_resources_parameter_xml - 2019.08.14 at 11h 23m 43s.xml">
+      <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/TestNGChapter/src/main/resources/parameter.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -648,7 +626,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3853403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3853403" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -676,35 +654,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/suit/SuitConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/suit/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#133#134#0" expanded="false" />
-            <element signature="e#175#176#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/suit/PayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1117,24 +1066,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/suit/SuitConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/IgnoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1225,14 +1156,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/resources/suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/ExpectedException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1251,14 +1174,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/DependMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="304">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#127#128#0" expanded="true" />
             <element signature="e#174#175#0" expanded="true" />
             <element signature="e#240#241#0" expanded="true" />
             <element signature="e#287#288#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/resources/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/suit/SuitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/parameter/ParameterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNGChapter/src/main/resources/parameter.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
