@@ -8,11 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Chapter" />
         <module name="TestNGChapter" />
+        <module name="TestReport" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Chapter" target="1.5" />
       <module name="TestNGChapter" target="1.5" />
+      <module name="TestReport" target="1.5" />
+      <module name="TestRepost" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

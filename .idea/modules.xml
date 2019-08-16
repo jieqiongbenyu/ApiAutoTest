@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ApiAutoTest.iml" filepath="$PROJECT_DIR$/.idea/ApiAutoTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestNGChapter/TestNGChapter.iml" filepath="$PROJECT_DIR$/TestNGChapter/TestNGChapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestReport/TestReport.iml" filepath="$PROJECT_DIR$/TestReport/TestReport.iml" />
     </modules>
   </component>
 </project>
