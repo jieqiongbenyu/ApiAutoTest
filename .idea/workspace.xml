@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="068d7e12-b07e-4804-9284-810c197764f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="068d7e12-b07e-4804-9284-810c197764f4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
     <ignored path="$PROJECT_DIR$/TestNGChapter/target/" />
     <ignored path="$PROJECT_DIR$/TestRepost/target/" />
