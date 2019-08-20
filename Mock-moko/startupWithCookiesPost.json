@@ -1,0 +1,23 @@
+[
+  {
+    "description":"这是个带有cookies的需要传参的Post请求",
+    "request":{
+      "uri":"/post/withParameter/cookies",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "name":"zhangsan",
+        "age":"18"
+      }
+    },
+    "response":{
+      "status":200,
+      "json":{
+        "张三":"是个男的",
+        "status":"今年18岁"
+      }
+    }
+  }
+]

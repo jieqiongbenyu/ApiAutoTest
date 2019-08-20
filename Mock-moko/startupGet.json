@@ -1,0 +1,26 @@
+[
+  {
+    "description":"这个一个不带参数的get请求",
+    "request":{
+      "uri":"/getDemoWithoutParameter",
+      "method":"get"
+    },
+    "response":{
+      "text":"这是一个get请求且无参"
+    }
+  },
+  {
+    "description":"这是一个带参的get请求",
+    "request":{
+      "uri":"/getDemoWithParameter",
+      "method":"get",
+      "queries":{
+        "name":"王洁琼",
+        "age":"18"
+      }
+    },
+    "response":{
+      "text":"王洁琼今年18岁，是个小美女"
+    }
+  }
+]

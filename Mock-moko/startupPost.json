@@ -1,0 +1,26 @@
+[
+  {
+    "description":"这是一个无参的post情趣",
+    "request":{
+      "uri":"/postDemoWithoutParameter",
+      "method":"post"
+    },
+    "response":{
+      "text":"这是一个无参的post请求"
+    }
+  },
+  {
+    "description":"这是一个带参的post请求",
+    "request":{
+      "uri":"/postDemoWithParameter",
+      "method":"post",
+      "forms":{
+        "name":"猪猪",
+        "age":"18"
+      }
+    },
+    "response":{
+      "text":"猪猪今年也是18岁"
+    }
+  }
+]
