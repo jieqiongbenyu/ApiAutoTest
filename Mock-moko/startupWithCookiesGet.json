@@ -20,7 +20,7 @@
       "uri":"/get/with/cookies",
       "method":"get",
       "cookies":{
-        "login":"true"
+        "status":"1000"
       }
     },
     "response":{
