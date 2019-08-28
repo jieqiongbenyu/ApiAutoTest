@@ -5,8 +5,6 @@ import org.apache.http.client.CookieStore;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.cookie.Cookie;
-import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
@@ -15,21 +13,24 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.List;
 import java.util.Locale;
 import java.util.ResourceBundle;
+
 
 public class GetCookies {
 
     private String dev_url;
-    private String uri;
+    private String get_cookies_uri;
+    private String get_with_cookies_uri;
     private ResourceBundle bundle;
+    private CookieStore store;
 
     @BeforeTest
     public void beforeTest(){
         bundle = ResourceBundle.getBundle("application", Locale.CHINA);
         dev_url = bundle.getString("dev.url");
-        uri = bundle.getString("getCookies.uri");
+        get_cookies_uri = bundle.getString("getCookies.uri");
+        get_with_cookies_uri = bundle.getString("get.with.cookies.uri");
     }
 
 //    @Test
@@ -53,7 +54,7 @@ public class GetCookies {
 //    }
     @Test
     public void getCookie(){
-        String url = this.dev_url + this.uri;
+        String url = this.dev_url + this.get_cookies_uri;
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpGet get=new HttpGet(url);
         HttpClientContext context = HttpClientContext.create();
@@ -63,7 +64,8 @@ public class GetCookies {
                 System.out.println(">>>>>>headers:");
                 Arrays.stream(response.getAllHeaders()).forEach(System.out::println);
                 System.out.println(">>>>>>cookies:");
-                context.getCookieStore().getCookies().forEach(System.out::println);
+                this.store = context.getCookieStore();
+                this.store.getCookies().forEach(System.out::println);
             }
             finally {
                 response.close();
@@ -78,4 +80,28 @@ public class GetCookies {
             }
         }
     }
+
+    @Test(dependsOnMethods={"getCookie"})
+    public void getWithCookies(){
+        String url = this.dev_url + this.get_with_cookies_uri;
+        CloseableHttpClient client = HttpClients.createDefault();
+        HttpGet get = new HttpGet(url);
+        HttpClientContext context = HttpClientContext.create();
+        context.setCookieStore(this.store);
+        try {
+            HttpResponse response = client.execute(get,context);
+            try{
+                String result = EntityUtils.toString(response.getEntity());
+                System.out.println(result);
+            }
+            finally {
+                client.close();
+            }
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+
+
+    }
+
 }
