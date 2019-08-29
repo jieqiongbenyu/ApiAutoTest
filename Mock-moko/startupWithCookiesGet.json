@@ -7,8 +7,8 @@
     },
     "response":{
       "cookies":{
-        "login":"true",
-        "status":"1000"
+        "login":"true"
+
 
       },
       "text":"获取cookies成功了啊"
@@ -20,7 +20,7 @@
       "uri":"/get/with/cookies",
       "method":"get",
       "cookies":{
-        "status":"1000"
+        "login":"true"
       }
     },
     "response":{
