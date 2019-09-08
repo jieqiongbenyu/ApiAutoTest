@@ -103,7 +103,7 @@ public class RequestWithCookiesForPost {
             //获取响应结果
             String result = EntityUtils.toString(response.getEntity(),"utf-8");
             System.out.println(result);
-            //将String类型的响应结果转换成json格式
+            //将String类型的响应结果转换成json格式，处理响应结果并进行校验
             JSONObject resultJson = new JSONObject(result);
             //获取json类型的响应结果，通过key拿到对应点value
             String name = (String) resultJson.get("张三");
@@ -120,10 +120,6 @@ public class RequestWithCookiesForPost {
             }
 
         }
-
-
-
-        //处理响应结果并进行校验
 
     }
 

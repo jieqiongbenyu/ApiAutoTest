@@ -3,4 +3,5 @@ java -jar ./moco-runner-0.11.0-standalone.jar http -p 8831 -c startup1.json
 
 http指的是使用的什么协议
 -p指定端口号
--c指定json文件，注意这里要写这个json文件的绝对路径或相对路径，这里因为这个json文件和这个jar包都在同一个路径下，所以只写了个json文件名称.json
+-c指定json文件，注意这里要写这个json文件的绝对路径或相对路径，这里因为这个json文件和这个jar包都在同一个路径下，
+所以只写了个json文件名称.json
