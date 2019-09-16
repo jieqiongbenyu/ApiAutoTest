@@ -11,6 +11,7 @@
     <modules>
         <module>TestNGChapter</module>
         <module>TestReport</module>
+        <module>HttpClientDemo</module>
     </modules>
 
 </project>
