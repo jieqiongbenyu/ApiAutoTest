@@ -1,14 +1,15 @@
 package com.course.server;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.HashMap;
+import java.util.Map;
 
 @RestController
+
 public class MyGetMethod {
 
     /**
@@ -45,6 +46,31 @@ public class MyGetMethod {
             }
         }
         return "这是一个携带cookies信息的get请求";
+    }
 
+    /**
+     * 携带请求参数才能进行的get请求
+     * 方法一：请求url为 host:port/XXXX?param=value&param=value形式
+     * 以模拟一个商品列表为例
+     */
+    @RequestMapping(value = "/get/with/param", method = RequestMethod.GET)
+    public Map<String, Integer> getList(@RequestParam Integer start, @RequestParam Integer end){
+        Map<String, Integer> myList = new HashMap<>();
+        myList.put("鞋", 200);
+        myList.put("T恤", 100);
+        myList.put("小浣熊", 2);
+        return myList;
+    }
+
+    /**
+     * 携带请求参数才能执行的get请求
+     * 方法二：请求url为 host:port/XXX/param1/param2形式
+     */
+    @RequestMapping(value = "/get/with/paramter/{start}/{end}")
+    public Map<String, Integer> getGoodsList(@PathVariable Integer start, @PathVariable Integer end){
+        Map<String, Integer> myGoodsList = new HashMap<>();
+        myGoodsList.put("帽子", 1000);
+        myGoodsList.put("袜子", 10);
+        return myGoodsList;
     }
 }
