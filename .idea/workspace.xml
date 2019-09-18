@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068d7e12-b07e-4804-9284-810c197764f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/code/SpringbootDemo/SpringbootDemoApplication.java" afterPath="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/code/SpringbootDemo/SpringbootDemoApplication.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/SpringbootDemo/SpringbootDemo.iml" afterPath="$PROJECT_DIR$/SpringbootDemo/SpringbootDemo.iml" />
+      <change beforePath="$PROJECT_DIR$/SpringbootDemo/pom.xml" afterPath="$PROJECT_DIR$/SpringbootDemo/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/SpringbootDemo/src/main/java/Application.java" afterPath="$PROJECT_DIR$/SpringbootDemo/src/main/java/Application.java" />
       <change beforePath="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/server/MyGetMethod.java" afterPath="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/server/MyGetMethod.java" />
+      <change beforePath="$PROJECT_DIR$/SpringbootDemo/target/classes/Application.class" afterPath="$PROJECT_DIR$/SpringbootDemo/target/classes/Application.class" />
+      <change beforePath="$PROJECT_DIR$/SpringbootDemo/target/classes/com/course/server/MyGetMethod.class" afterPath="$PROJECT_DIR$/SpringbootDemo/target/classes/com/course/server/MyGetMethod.class" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
     <ignored path="$PROJECT_DIR$/TestNGChapter/target/" />
@@ -33,8 +38,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringbootDemo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="252">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -47,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/code/SpringbootDemo/SpringbootDemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#554#555#0" expanded="true" />
@@ -62,8 +67,8 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringbootDemo/src/main/java/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="114">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +79,20 @@
       <file leaf-file-name="MyGetMethod.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/server/MyGetMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="48" />
+            <state relative-caret-position="532">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwaggerConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/config/SwaggerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/SpringbootDemo/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+              <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -97,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/Mock-moko/startupWithCookiesGet.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -148,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/suit/SuitConfig.java" />
         <option value="$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/IgnoreTest.java" />
         <option value="$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/groups/GroupsOnMethod.java" />
         <option value="$PROJECT_DIR$/TestNGChapter/src/main/java/com/course/testng/groups/GroupsOnClass1.java" />
@@ -192,13 +208,14 @@
         <option value="$PROJECT_DIR$/SrpintbootDemo/pom.xml" />
         <option value="$PROJECT_DIR$/pop.xml" />
         <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/springboot/SpringbootDemoApplication.java" />
-        <option value="$PROJECT_DIR$/SpringbootDemo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/code/SpringbootDemo/Application.java" />
         <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/server/GetMyCookies.java" />
-        <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/SpringbootDemo/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/code/SpringbootDemo/SpringbootDemoApplication.java" />
+        <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/config/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/server/MyGetMethod.java" />
+        <option value="$PROJECT_DIR$/SpringbootDemo/pom.xml" />
       </list>
     </option>
   </component>
@@ -281,11 +298,6 @@
             <path>
               <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Mock-moko" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
               <item name="SpringbootDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -327,6 +339,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
               <item name="SpringbootDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringbootDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
@@ -658,7 +680,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39484978" sideWeight="0.50250626" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957393" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39484978" sideWeight="0.49749374" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39484978" sideWeight="0.49749374" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49749374" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -688,13 +710,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HttpClientDemo/HttpClientDemo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -982,21 +997,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringbootDemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mock-moko/startupWithCookiesGet.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1004,7 +1008,7 @@
     <entry file="file://$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/code/SpringbootDemo/SpringbootDemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#554#555#0" expanded="true" />
@@ -1015,28 +1019,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SpringbootDemo/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="24" lean-forward="false" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpringbootDemo/src/main/java/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="114">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringbootDemo/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/SpringbootDemo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        <state relative-caret-position="252">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="20" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/server/MyGetMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="48" />
+        <state relative-caret-position="532">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
