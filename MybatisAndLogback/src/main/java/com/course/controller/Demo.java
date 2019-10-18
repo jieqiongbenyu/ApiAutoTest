@@ -1,9 +1,11 @@
 package com.course.controller;
 
+import com.course.model.Book;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,4 +26,9 @@ public class Demo {
         return template.selectOne("getBookCount");
     }
 
+    @RequestMapping(value = "/insertIntoBook", method = RequestMethod.POST)
+    @ApiOperation(value = "像book表中插入一条数据", httpMethod = "POST")
+    public int insertBook(@RequestBody Book book){
+        return template.insert("insertIntoBook", book);
+    }
 }

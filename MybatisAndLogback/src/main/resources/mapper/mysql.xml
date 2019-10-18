@@ -9,4 +9,8 @@
         select count(*) from book;
     </select>
 
+    <insert id="insertIntoBook" parameterType="com.course.model.Book">
+        insert into book(name,author,id)
+        values(#{name},#{author},#{id})
+    </insert>
 </mapper>
