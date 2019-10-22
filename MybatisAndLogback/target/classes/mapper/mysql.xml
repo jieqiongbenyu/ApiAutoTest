@@ -9,8 +9,22 @@
         select count(*) from book;
     </select>
 
+    <select id="getBookInfo"  parameterType="Integer" resultType="com.course.model.Book">
+        select * from Book where id = #{id}
+    </select>
+
     <insert id="insertIntoBook" parameterType="com.course.model.Book">
         insert into book(name,author,id)
         values(#{name},#{author},#{id})
     </insert>
+
+    <update id="updateBook" parameterType="com.course.model.Book">
+        update Book set name=#{name}, author=#{author}
+        where id=#{id}
+    </update>
+
+    <delete id="deleteFormBook" parameterType="Integer">
+        delete from Book
+        where id=#{id}
+    </delete>
 </mapper>

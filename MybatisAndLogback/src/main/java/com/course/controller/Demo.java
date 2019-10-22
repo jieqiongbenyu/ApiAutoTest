@@ -5,10 +5,9 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @Api(value = "v1", description = "这是mybatis的第一个demo")
@@ -30,5 +29,27 @@ public class Demo {
     @ApiOperation(value = "像book表中插入一条数据", httpMethod = "POST")
     public int insertBook(@RequestBody Book book){
         return template.insert("insertIntoBook", book);
+
+    }
+
+    @RequestMapping(value = "/getInfoFromBook", method = RequestMethod.GET)
+    @ApiOperation(value = "获取book表中某一条数据的信息", httpMethod = "GET")
+    public Book getBookInfo(@RequestParam Integer id){
+        return template.selectOne("getBookInfo", id);
+    }
+//    public List<String> getBookInfo(@RequestBody Book book){
+//        return template.selectOne("getBookInfo", book);
+//    }
+
+    @RequestMapping(value = "/updateBook", method = RequestMethod.POST)
+    @ApiOperation(value = "修改Book表的数据", httpMethod = "POST")
+    public int updateBookInfo(@RequestBody Book book){
+        return template.update("updateBook",book);
+    }
+
+    @RequestMapping(value = "/deleteBookInfo", method = RequestMethod.GET)
+    @ApiOperation(value = "删除Book表中的数据", httpMethod = "GET")
+    public int deleteBookInfo(@RequestParam Integer id){
+        return template.delete("deleteFormBook", id);
     }
 }
