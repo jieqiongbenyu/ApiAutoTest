@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Chapter" />
         <module name="HttpClientDemo" />
+        <module name="LoginApiTest" />
         <module name="MybatisAndLogback" />
         <module name="SpringbootDemo" />
         <module name="TestNGChapter" />
@@ -17,6 +18,7 @@
     <bytecodeTargetLevel>
       <module name="Chapter" target="1.5" />
       <module name="HttpClientDemo" target="1.8" />
+      <module name="LoginApiTest" target="1.5" />
       <module name="MybatisAndLogback" target="1.5" />
       <module name="SpringbootDemo" target="1.8" />
       <module name="TestNGChapter" target="1.5" />

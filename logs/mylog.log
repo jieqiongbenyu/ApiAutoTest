@@ -1079,3 +1079,5 @@ java.lang.ClassCastException: com.course.model.Book cannot be cast to java.base/
 2019-10-22 18:25:32.485 [http-nio-8787-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-10-22 18:25:32.485 [http-nio-8787-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2019-10-22 18:25:32.492 [http-nio-8787-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-10-22 21:42:37.788 [Thread-2] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2019-10-22 21:42:37.789 [Thread-2] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

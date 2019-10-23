@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/HttpClientDemo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringbootDemo/pom.xml" />
         <option value="$PROJECT_DIR$/MybatisAndLogback/pom.xml" />
+        <option value="$PROJECT_DIR$/LoginApiTest/pom.xml" />
       </list>
     </option>
   </component>

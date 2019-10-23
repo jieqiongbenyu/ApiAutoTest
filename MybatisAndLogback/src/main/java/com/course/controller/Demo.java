@@ -37,9 +37,6 @@ public class Demo {
     public Book getBookInfo(@RequestParam Integer id){
         return template.selectOne("getBookInfo", id);
     }
-//    public List<String> getBookInfo(@RequestBody Book book){
-//        return template.selectOne("getBookInfo", book);
-//    }
 
     @RequestMapping(value = "/updateBook", method = RequestMethod.POST)
     @ApiOperation(value = "修改Book表的数据", httpMethod = "POST")
