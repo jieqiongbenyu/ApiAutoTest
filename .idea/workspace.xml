@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="068d7e12-b07e-4804-9284-810c197764f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/config/TestConfig.java" afterPath="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/config/TestConfig.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/interfaceName.java" afterPath="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/InterfaceName.java" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
     <ignored path="$PROJECT_DIR$/TestNGChapter/target/" />
@@ -21,16 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LoginCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/LoginCase.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,8 +32,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interfaceName.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/interfaceName.java">
+      <file leaf-file-name="InterfaceName.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/InterfaceName.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -85,12 +76,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/config/TestConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
               <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigFile.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/utils/ConfigFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,8 +111,8 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="114">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -154,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Mock-moko/startupGet" />
         <option value="$PROJECT_DIR$/Mock-moko/startupGet.json" />
         <option value="$PROJECT_DIR$/Mock-moko/startupPost.json" />
         <option value="$PROJECT_DIR$/Mock-moko/startupWithCookies.json" />
@@ -205,6 +207,7 @@
         <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/config/ExtentTestNGIReporterListener.java" />
         <option value="$PROJECT_DIR$/LoginApiTest/pom.xml" />
         <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/config/TestConfig.java" />
+        <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/utils/ConfigFile.java" />
       </list>
     </option>
   </component>
@@ -379,6 +382,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
@@ -772,13 +795,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HttpClientDemo/src/main/java/com/course/httpclient/demo/MyHttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringbootDemo/src/test/java/com/course/code/SrpintbootDemo/SrpintbootDemoApplicationTests.java" />
     <entry file="file://$PROJECT_DIR$/SpringbootDemo/.gitignore" />
     <entry file="file://$PROJECT_DIR$/SpringbootDemo/HELP.md" />
@@ -1051,7 +1067,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/interfaceName.java">
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/InterfaceName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -1098,10 +1114,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/config/TestConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="57">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1114,11 +1130,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/config/TestConfig.java">
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/utils/ConfigFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
