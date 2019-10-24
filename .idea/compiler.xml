@@ -18,7 +18,7 @@
     <bytecodeTargetLevel>
       <module name="Chapter" target="1.5" />
       <module name="HttpClientDemo" target="1.8" />
-      <module name="LoginApiTest" target="1.5" />
+      <module name="LoginApiTest" target="1.6" />
       <module name="MybatisAndLogback" target="1.5" />
       <module name="SpringbootDemo" target="1.8" />
       <module name="TestNGChapter" target="1.5" />
