@@ -3,6 +3,13 @@
 <suite name="用户登录系统管理套件">
     <test name="UserSystem">
         <classes>
+
+
+            <class name="com.course.cases.AddUserTest">
+                <methods>
+                    <include name="addUser"/>
+                </methods>
+            </class>
             <class name = "com.course.cases.LoginTest">
                 <methods>
                     <include name="BeforeTest"/>
@@ -10,11 +17,6 @@
                 </methods>
             </class>
 
-            <class name="com.course.cases.AddUserTest">
-                <methods>
-                    <include name="addUser"/>
-                </methods>
-            </class>
         </classes>
     </test>
 </suite>

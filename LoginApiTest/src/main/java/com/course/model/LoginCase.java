@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class LoginCase {
     private int id;
-    private String user;
+    private String userName;
     private String password;
     private String expected;
 }
