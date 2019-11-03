@@ -12,6 +12,7 @@
         <module name="MybatisAndLogback" />
         <module name="SpringbootDemo" />
         <module name="TestNGChapter" />
+        <module name="TestNgMybatis" />
         <module name="TestReport" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="MybatisAndLogback" target="1.5" />
       <module name="SpringbootDemo" target="1.8" />
       <module name="TestNGChapter" target="1.5" />
+      <module name="TestNgMybatis" target="1.8" />
       <module name="TestReport" target="1.6" />
       <module name="TestRepost" target="1.5" />
     </bytecodeTargetLevel>

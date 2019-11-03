@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/MybatisAndLogback/MybatisAndLogback.iml" filepath="$PROJECT_DIR$/MybatisAndLogback/MybatisAndLogback.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringbootDemo/SpringbootDemo.iml" filepath="$PROJECT_DIR$/SpringbootDemo/SpringbootDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestNGChapter/TestNGChapter.iml" filepath="$PROJECT_DIR$/TestNGChapter/TestNGChapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestNgMybatis/TestNgMybatis.iml" filepath="$PROJECT_DIR$/TestNgMybatis/TestNgMybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestReport/TestReport.iml" filepath="$PROJECT_DIR$/TestReport/TestReport.iml" />
     </modules>
   </component>

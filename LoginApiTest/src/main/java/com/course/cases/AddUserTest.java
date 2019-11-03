@@ -13,7 +13,7 @@ public class AddUserTest {
     @Test(dependsOnGroups = "LoginTrue", description = "增加用户信息")
     public void addUser() throws IOException {
         SqlSession sqlSession = DataBaseUtil.getSqlSession();
-        AddUserCase addUserCase = sqlSession.selectOne("addUserCase", 1 );
+        AddUserCase addUserCase = sqlSession.selectOne("addUserTest", 1 );
         System.out.println(addUserCase.toString());
         System.out.println(TestConfig.addUseUrl);
     }
