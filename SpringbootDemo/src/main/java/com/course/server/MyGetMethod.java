@@ -71,6 +71,7 @@ public class MyGetMethod {
     /**
      * 携带请求参数才能执行的get请求
      * 方法二：请求url为 host:port/XXX/param1/param2形式
+     * 使用@PathVariable注解，也可以用来传入动态参数
      */
     @RequestMapping(value = "/get/with/paramter/{start}/{end}")
     @ApiOperation(value = "携带请求参数才能执行的get请求,host:port/XXX/param1/param2形式"
