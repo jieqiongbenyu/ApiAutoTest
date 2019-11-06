@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="068d7e12-b07e-4804-9284-810c197764f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/server/MyGetMethod.java" afterPath="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/server/MyGetMethod.java" />
-      <change beforePath="$PROJECT_DIR$/TestNgMybatis/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/TestNgMybatis/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/TestNgMybatis/src/main/resources/mapper/mysql.xml" afterPath="$PROJECT_DIR$/TestNgMybatis/src/main/resources/mapper/mysql.xml" />
+      <change beforePath="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/AddUserTest.java" afterPath="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/AddUserTest.java" />
+      <change beforePath="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/LoginTest.java" afterPath="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/LoginTest.java" />
+      <change beforePath="$PROJECT_DIR$/LoginApiTest/src/main/resources/mapper/SQLMapper.xml" afterPath="$PROJECT_DIR$/LoginApiTest/src/main/resources/mapper/SQLMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/LoginApiTest/src/main/resources/testng.xml" afterPath="$PROJECT_DIR$/LoginApiTest/src/main/resources/testng.xml" />
+      <change beforePath="$PROJECT_DIR$/LoginApiTest/test-output/index.html" afterPath="$PROJECT_DIR$/LoginApiTest/test-output/index.html" />
+      <change beforePath="$PROJECT_DIR$/TestNgMybatis/src/main/java/com/course/controller/UserManager.java" afterPath="$PROJECT_DIR$/TestNgMybatis/src/main/java/com/course/controller/UserManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
     <ignored path="$PROJECT_DIR$/TestNGChapter/target/" />
@@ -25,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestNgMybatis/src/main/java/com/course/controller/UserManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="76" column="48" lean-forward="true" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+            <state relative-caret-position="581">
+              <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,73 +43,18 @@
       <file leaf-file-name="mysql.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestNgMybatis/src/main/resources/mapper/mysql.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="61" column="33" lean-forward="true" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
+            <state relative-caret-position="228">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestNgMybatis/src/main/java/com/course/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestNgMybatis/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MybatisAndLogback/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwaggerConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestNgMybatis/src/main/java/com/course/config/SwaggerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestNgMybatis/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwaggerConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/config/SwaggerConfig.java">
+      <file leaf-file-name="GetUserInfoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/GetUserInfoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,22 +62,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringbootDemoApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/code/SpringbootDemo/SpringbootDemoApplication.java">
+      <file leaf-file-name="GetCookies.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HttpClientDemo/src/main/java/com/course/httpclient/cookies/GetCookies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="19">
+              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mybatis-confing.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestNgMybatis/src/main/resources/mybatis-confing.xml">
+      <file leaf-file-name="AddUserTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/AddUserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestWithCookiesForPost.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HttpClientDemo/src/main/java/com/course/httpclient/cookies/RequestWithCookiesForPost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="685">
+              <caret line="111" column="49" lean-forward="true" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyHttpClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HttpClientDemo/src/main/java/com/course/httpclient/demo/MyHttpClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCookiesForGet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HttpClientDemo/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/resources/mapper/SQLMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetUserInfoListTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/GetUserInfoListTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding />
+              <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,6 +151,7 @@
       <find>mysql</find>
       <find>mybatis</find>
       <find>swagger</find>
+      <find>LoginCase</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -164,11 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/springboot/SpringbootDemoApplication.java" />
-        <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/code/SpringbootDemo/Application.java" />
-        <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/server/GetMyCookies.java" />
-        <option value="$PROJECT_DIR$/SpringbootDemo/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/code/SpringbootDemo/SpringbootDemoApplication.java" />
         <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/SpringbootDemo/pom.xml" />
@@ -197,13 +193,9 @@
         <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/utils/DatabaseUtil.java" />
         <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/utils/DataBaseUtil.java" />
         <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/config/TestConfig.java" />
-        <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/LoginTest.java" />
         <option value="$PROJECT_DIR$/LoginApiTest/pom.xml" />
         <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/LoginCase.java" />
         <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/UpdateUserTest.java" />
-        <option value="$PROJECT_DIR$/LoginApiTest/src/main/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/AddUserTest.java" />
-        <option value="$PROJECT_DIR$/LoginApiTest/src/main/resources/mapper/SQLMapper.xml" />
         <option value="$PROJECT_DIR$/TestNgMybatis/pom.xml" />
         <option value="$PROJECT_DIR$/TestNgMybatis/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/TestNgMybatis/src/main/resources/mybatis-confing.xml" />
@@ -212,9 +204,18 @@
         <option value="$PROJECT_DIR$/TestNgMybatis/src/main/java/com/course/model/User.java" />
         <option value="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course/server/MyGetMethod.java" />
         <option value="$PROJECT_DIR$/TestNgMybatis/src/main/resources/mapper/mysql.xml" />
-        <option value="$PROJECT_DIR$/TestNgMybatis/src/main/java/com/course/controller/UserManager.java" />
         <option value="$PROJECT_DIR$/TestNgMybatis/src/main/java/com/course/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/TestNgMybatis/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/GetUserInfoListCase.java" />
+        <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/LoginTest.java" />
+        <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/AddUserTest.java" />
+        <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/GetUserInfo.java" />
+        <option value="$PROJECT_DIR$/LoginApiTest/src/main/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/UpdateUserInfoTest.java" />
+        <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/GetUserInfoTest.java" />
+        <option value="$PROJECT_DIR$/LoginApiTest/src/main/resources/mapper/SQLMapper.xml" />
+        <option value="$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/GetUserInfoListTest.java" />
+        <option value="$PROJECT_DIR$/TestNgMybatis/src/main/java/com/course/controller/UserManager.java" />
       </list>
     </option>
   </component>
@@ -241,8 +242,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="60" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1638" />
     <option name="height" value="1027" />
   </component>
@@ -297,25 +298,25 @@
             <path>
               <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="TestNgMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClientDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="TestNgMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClientDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="TestNgMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClientDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="TestNgMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClientDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -323,7 +324,52 @@
             <path>
               <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="TestNgMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClientDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="HttpClientDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="httpclient" type="462c0819:PsiDirectoryNode" />
+              <item name="cookies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApiTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApiTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -332,12 +378,94 @@
             <path>
               <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="TestNgMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="cases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApiTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginApiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="TestNgMybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="TestNgMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="TestNgMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="TestNgMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="TestNgMybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
@@ -348,16 +476,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="TestNgMybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ApiAutoTest" type="b2602c69:ProjectViewProjectNode" />
@@ -395,14 +513,14 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/SpringbootDemo/src/main/java/com/course" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/MybatisAndLogback/src/main/resources/mapper" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Moke-moko" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MybatisAndLogback/src/main/resources/mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -417,7 +535,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Application (3)">
+  <component name="RunManager" selected="TestNG./Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/LoginApiTest/src/main/resources/testng.xml">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -644,8 +762,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Application (3)" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG./Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/LoginApiTest/src/main/resources/testng.xml" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG./Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/LoginApiTest/src/main/resources/testng.xml" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Application (3)" />
         <item index="2" class="java.lang.String" itemvalue="Application.Application (2)" />
         <item index="3" class="java.lang.String" itemvalue="Application.Application (1)" />
         <item index="4" class="java.lang.String" itemvalue="Application.Application" />
@@ -669,24 +787,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddUserTest - 2019.10.30 at 18h 17m 13s.xml">
-      <configuration name="AddUserTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddUserTest - 2019.10.30 at 18h 17m 43s.xml">
-      <configuration name="AddUserTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest - 2019.10.30 at 16h 31m 21s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest - 2019.10.30 at 16h 32m 43s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest - 2019.10.30 at 18h 17m 34s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_LoginApiTest_src_main_resources_testng_xml - 2019.10.30 at 18h 33m 22s.xml">
-      <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/LoginApiTest/src/main/resources/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_LoginApiTest_src_main_resources_testng_xml - 2019.10.30 at 18h 36m 26s.xml">
       <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/LoginApiTest/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -697,6 +797,24 @@
       <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/LoginApiTest/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_LoginApiTest_src_main_resources_testng_xml - 2019.10.31 at 11h 14m 39s.xml">
+      <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/LoginApiTest/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_LoginApiTest_src_main_resources_testng_xml - 2019.11.06 at 14h 38m 13s.xml">
+      <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/LoginApiTest/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_LoginApiTest_src_main_resources_testng_xml - 2019.11.06 at 14h 54m 43s.xml">
+      <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/LoginApiTest/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_LoginApiTest_src_main_resources_testng_xml - 2019.11.06 at 14h 55m 26s.xml">
+      <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/LoginApiTest/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_LoginApiTest_src_main_resources_testng_xml - 2019.11.06 at 14h 59m 04s.xml">
+      <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/LoginApiTest/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_LoginApiTest_src_main_resources_testng_xml - 2019.11.06 at 15h 04m 59s.xml">
+      <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/LoginApiTest/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_jieqiong_Api_ApiAutoTest_ApiAutoTest_LoginApiTest_src_main_resources_testng_xml - 2019.11.06 at 15h 05m 44s.xml">
       <configuration name="/Users/jieqiong/Api/ApiAutoTest/ApiAutoTest/LoginApiTest/src/main/resources/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -710,7 +828,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1638" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="1638" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.49749374" order="6" side_tool="false" content_ui="tabs" />
@@ -725,7 +844,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30639097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30639097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -745,66 +864,23 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/UpdateUserInfoTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/AddUser.java" />
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/GetUserList.java" />
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/GetUserInfoCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/GetUserListCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/UpdateUserInfoCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestReport/src/main/java/com/test/report/ExtentTestNGIReporterListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="847">
           <caret line="195" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClientDemo/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClientDemo/src/main/java/com/course/httpclient/cookies/GetCookies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpClientDemo/src/main/java/com/course/httpclient/demo/MyHttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -870,14 +946,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LoginApiTest/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
         <state />
@@ -928,14 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/config/TestConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MybatisAndLogback/src/main/java/com/course/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -947,6 +1007,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="13" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -954,6 +1015,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -965,22 +1027,6 @@
             <element signature="e#732#733#0" expanded="false" />
             <element signature="e#789#790#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="19" column="76" lean-forward="false" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/resources/mapper/SQLMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,30 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/utils/ConfigFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/utils/DataBaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/AddUserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="74" lean-forward="false" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -1075,7 +1097,7 @@
         <state relative-caret-position="399">
           <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1085,7 +1107,7 @@
         <state relative-caret-position="437">
           <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1114,14 +1136,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestNgMybatis/src/main/resources/mapper/mysql.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="61" column="33" lean-forward="true" selection-start-line="61" selection-start-column="33" selection-end-line="61" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestNgMybatis/src/main/java/com/course/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1130,13 +1144,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestNgMybatis/src/main/java/com/course/controller/UserManager.java">
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/utils/ConfigFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="76" column="48" lean-forward="true" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+        <state relative-caret-position="304">
+          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/config/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/utils/DataBaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/model/GetUserListCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/UpdateUserInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/resources/mapper/SQLMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/GetUserInfoListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="51" lean-forward="true" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNgMybatis/src/main/resources/mapper/mysql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/GetUserInfoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClientDemo/src/main/java/com/course/httpclient/demo/MyHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestNgMybatis/src/main/java/com/course/controller/UserManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClientDemo/src/main/java/com/course/httpclient/cookies/GetCookies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClientDemo/src/main/java/com/course/httpclient/cookies/MyCookiesForGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpClientDemo/src/main/java/com/course/httpclient/cookies/RequestWithCookiesForPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="111" column="49" lean-forward="true" selection-start-line="111" selection-start-column="49" selection-end-line="111" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginApiTest/src/main/java/com/course/cases/AddUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -57,14 +57,14 @@ public class UserManager {
     public boolean addUser(HttpServletRequest request, @RequestBody User user){
         boolean x = verifyCookes(request);
         int result = 0;
-        if (x == true){
+        if (x){
             result = template.insert("addUser", user);
             log.info("添加用户成功");
             return true;
         }
-        if (result > 0){
-            log.info("增加的用户为" + user.getUser());
-        }
+//        if (result ==0){
+//            log.info("增加的用户为" + user.getUser());
+//        }
         return false;
     }
 
@@ -72,7 +72,7 @@ public class UserManager {
     @ApiOperation(value = "获取用户信息", httpMethod = "POST")
     public List<User> getUserInfo(HttpServletRequest request, @RequestBody User user){
         boolean x = verifyCookes(request);
-        if (x == true){
+        if (x){
             List<User> users = template.selectList("getUserInfo", user);
             log.info("获取用户的数量为" + users.size());
             return users;
@@ -87,7 +87,7 @@ public class UserManager {
     public int updateUserInfo(HttpServletRequest request, @RequestBody User user){
         boolean x = verifyCookes(request);
         int result = 0;
-        if (x == true){
+        if (x){
             result = template.update("updateUserInfo", user);
         }
         log.info("更新用户数量为：" + result);
